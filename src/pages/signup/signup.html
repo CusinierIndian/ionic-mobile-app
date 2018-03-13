@@ -1,0 +1,28 @@
+
+<ion-content class="signup-section">
+	<img src="./assets/imgs/ic2.png" class="landing-image"/>
+	<div class="signup-content">
+		
+		<ion-list>
+			<ion-item>
+	        <ion-label floating>Name</ion-label>
+	        <ion-input type="text" value=""></ion-input>
+	      </ion-item>
+	      <ion-item>
+	        <ion-label floating>Email</ion-label>
+	        <ion-input type="text" value=""></ion-input>
+	      </ion-item>
+
+	      <ion-item>
+	        <ion-label floating>Password</ion-label>
+	        <ion-input type="password" value=""></ion-input>
+	      </ion-item>
+
+	    </ion-list>
+	    <div padding>
+	      <button ion-button color="light" full round>Sign Up</button>
+	    </div>
+	    <p class="signup-link" (click)="goToPage('LoginPage')">Already have an account?</p>
+	</div>
+
+</ion-content>

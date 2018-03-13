@@ -1,0 +1,39 @@
+
+<ion-content class="login-section">
+	<img src="./assets/imgs/ic2.png" class="landing-image"/>
+	<div class="login-content">
+		
+		<ion-list>
+
+	      <ion-item>
+	        <ion-label floating>Username</ion-label>
+	        <ion-input type="text" value=""></ion-input>
+	      </ion-item>
+
+	      <ion-item>
+	        <ion-label floating>Password</ion-label>
+	        <ion-input type="password" value=""></ion-input>
+	      </ion-item>
+
+	    </ion-list>
+	    <p class="forget-password-link" (click)="openModal()">forget password</p>
+	    <div padding>
+	      <button ion-button color="light" full round>Sign In</button>
+	    </div>
+	    <div padding class="mid-text">
+	    	<p>OR CONNECT WITH</p>
+	    	<button ion-button icon-left round >
+			  <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon>
+			   facebook
+			</button>
+
+			<!-- Float the icon right -->
+			<button ion-button icon-left color="danger" round>
+			  <ion-icon ios="logo-google" md="logo-google"></ion-icon>
+			   Google
+			</button>
+	    </div>
+	    <p class="signup-link" (click)="goToPage('SignupPage')">Don't have an account?</p>
+	</div>
+
+</ion-content>

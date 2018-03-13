@@ -1,0 +1,41 @@
+page-home {
+   .landing-image{
+            width: 160px;
+          margin: 0 auto;
+          position: relative;
+          top: 15%;
+          display: block;
+   }
+   .landing-page{
+   		height:100%;
+   		width:100%;
+   		background-image:url("/assets/imgs/cover.jpg");
+   		position:relative;
+   		.landing-header{
+    		position: relative;
+		    top: 15%;
+		    text-align: center;
+		    font-size: 2.7rem;
+		    color: #fff;
+   		}
+   		.button-container{
+   			position:absolute;
+   			bottom:20px;
+   			width:100%;
+   			p{
+   				text-align:center;
+   				button{
+   					width:90%;
+   					border-radius: 64px;
+				    padding: 2.1rem 2.6rem;
+				    box-shadow: none;
+					border: 1px solid #4af1ed;
+					font-size: 18px;
+   				}
+   				.signup-btn{
+   					background-color: transparent;
+   				}
+   			}
+   		}
+   }
+}
